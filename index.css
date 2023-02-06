@@ -1,0 +1,115 @@
+@font-face {
+  src: url("/fonts/Outfit-Regular.ttf");
+  font-family: "Outfit-bold";
+  font-display: swap;
+}
+
+@font-face {
+  src: url("/fonts/Outfit-ExtraLight.ttf");
+  font-family: "Outfit";
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Outfit-bold";
+}
+
+body {
+  background: #0d1a2d;
+
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background: #15273f;
+  color: white;
+
+  width: 18rem;
+  border-radius: calc(0.5em + 0.5vw);
+  padding: calc(0.6em + 0.6vw);
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: calc(0.6em + 0.6vw);
+}
+
+svg {
+  margin-right: calc(0.2em + 0.2vw);
+}
+
+hr {
+  opacity: 0.2;
+}
+
+.details {
+  font-size: calc(0.4em + 0.4vw);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-text {
+  font-family: "Outfit";
+
+  opacity: 0.7;
+}
+
+.avatar {
+  font-family: "Outfit";
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.details div:nth-child(1) {
+  color: #3ee3e2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details div:nth-child(2) {
+  opacity: 0.6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.etherium-image img {
+  width: 100%;
+}
+
+.avatar img {
+  width: calc(1em + 1vw);
+
+  border: 1px solid white;
+  border-radius: 200%;
+}
+
+.avatar div:nth-child(2) {
+  font-size: calc(0.4em + 0.4vw);
+  opacity: 0.9;
+
+  margin-left: calc(0.4em + 0.4vw);
+}
+
+.avatar div:nth-child(2) p:nth-child(1) {
+  display: inline;
+  opacity: 0.6;
+}
+
+.avatar div:nth-child(2) p:nth-child(2) {
+  display: inline;
+}
