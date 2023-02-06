@@ -90,6 +90,8 @@ hr {
 }
 
 .etherium-image img {
+  cursor: pointer;
+
   width: 100%;
   border-radius: calc(0.4em + 0.4vw);
 }
@@ -97,6 +99,7 @@ hr {
 .avatar img {
   width: calc(1em + 1vw);
 
+  margin-right: calc(0.4em + 0.4vw);
   border: 1px solid white;
   border-radius: 200%;
 }
@@ -104,8 +107,6 @@ hr {
 .avatar div:nth-child(2) {
   font-size: calc(0.4em + 0.4vw);
   opacity: 0.9;
-
-  margin-left: calc(0.4em + 0.4vw);
 }
 
 .avatar div:nth-child(2) p:nth-child(1) {
@@ -115,4 +116,36 @@ hr {
 
 .avatar div:nth-child(2) p:nth-child(2) {
   display: inline;
+}
+
+.etherium-image:hover {
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: calc(1.2em + 1.2vw);
+  }
+
+  main {
+    width: calc(16em + 16vw);
+    padding: calc(1.3em + 1.3vw);
+  }
+
+  hr {
+    margin-bottom: calc(0.6em + 0.6vw);
+  }
+
+  .details {
+    font-size: calc(0.8em + 0.8vw);
+    margin-bottom: calc(0.4em + 0.4vw);
+  }
+
+  .avatar p {
+    font-size: calc(1.2em + 1.2vw);
+  }
+
+  .avatar img {
+    width: calc(1.5em + 1.5vw);
+    margin-right: calc(0.6em + 0.6vw);
+  }
 }
