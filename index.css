@@ -31,6 +31,8 @@ main {
   background: #15273f;
   color: white;
 
+  box-shadow: 0px 30px 5px 18px #0c1729, 0px 20px 5px 50px #0c192c;
+
   width: 18rem;
   border-radius: calc(0.5em + 0.5vw);
   padding: calc(0.6em + 0.6vw);
@@ -89,6 +91,7 @@ hr {
 
 .etherium-image img {
   width: 100%;
+  border-radius: calc(0.4em + 0.4vw);
 }
 
 .avatar img {
