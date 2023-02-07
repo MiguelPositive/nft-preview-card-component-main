@@ -1,11 +1,11 @@
 @font-face {
-  src: url("/fonts/Outfit-Regular.ttf");
+  src: url("./fonts/Outfit-Regular.ttf");
   font-family: "Outfit-bold";
   font-display: swap;
 }
 
 @font-face {
-  src: url("/fonts/Outfit-ExtraLight.ttf");
+  src: url("./fonts/Outfit-ExtraLight.ttf");
   font-family: "Outfit";
   font-display: swap;
 }
