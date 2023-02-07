@@ -12,13 +12,23 @@
     />
 
     <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body>
-    <main>
+    <main class="animate__animated animate__fadeIn">
       <div class="etherium-image">
-        <img src="images/image-equilibrium.jpg" alt="image equilibrium." />
+        <img
+          id="img-1"
+          src="images/image-equilibrium.jpg"
+          alt="image equilibrium."
+        />
+
+        <img id="img-2" src="/images/logo-color.jpg" alt="image-equilibrium" />
       </div>
       <h1>Equilibrium #3429</h1>
       <p class="card-text">
@@ -54,5 +64,7 @@
         </div>
       </div>
     </main>
+
+    <script src="index.js"></script>
   </body>
 </html>

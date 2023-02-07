@@ -39,6 +39,7 @@ main {
 }
 
 h1 {
+  cursor: pointer;
   font-weight: lighter;
   font-size: calc(0.6em + 0.6vw);
 }
@@ -73,6 +74,10 @@ hr {
   align-items: center;
 }
 
+h1:hover {
+  color: #20ccca;
+}
+
 .details div:nth-child(1) {
   color: #3ee3e2;
 
@@ -89,13 +94,6 @@ hr {
   align-items: center;
 }
 
-.etherium-image img {
-  cursor: pointer;
-
-  width: 100%;
-  border-radius: calc(0.4em + 0.4vw);
-}
-
 .avatar img {
   width: calc(1em + 1vw);
 
@@ -104,6 +102,16 @@ hr {
   border-radius: 200%;
 }
 
+.etherium-image img {
+  cursor: pointer;
+
+  width: 100%;
+  border-radius: calc(0.4em + 0.4vw);
+}
+
+.etherium-image img:nth-child(2) {
+  display: none;
+}
 .avatar div:nth-child(2) {
   font-size: calc(0.4em + 0.4vw);
   opacity: 0.9;
@@ -118,7 +126,9 @@ hr {
   display: inline;
 }
 
-.etherium-image:hover {
+.avatar div:nth-child(2) p:nth-child(2):hover {
+  color: #20ccca;
+  cursor: pointer;
 }
 
 @media (max-width: 500px) {
