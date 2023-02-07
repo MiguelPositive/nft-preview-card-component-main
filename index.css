@@ -131,6 +131,20 @@ h1:hover {
   cursor: pointer;
 }
 
+@media (max-width: 1440px) {
+  main {
+    width: calc(12em + 12vw);
+    font-size: calc(0.8em + 0.8vw);
+  }
+}
+
+@media (max-width: 1366px) {
+  main {
+    width: calc(11em + 11vw);
+    font-size: calc(0.6em + 0.6vw);
+  }
+}
+
 @media (max-width: 500px) {
   h1 {
     font-size: calc(1.2em + 1.2vw);
